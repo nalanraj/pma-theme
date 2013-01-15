@@ -1,0 +1,21 @@
+/**
+* Styles for task views 
+*/
+
+#completed {
+    font-style: italic;
+}
+.yes {
+    color: #119c0f;
+}
+
+.no {
+    color: #fb1e12;
+}
+
+#separator hr{
+  color:#000000;
+  background-color:#800000;
+  height:4px;
+  border:none;
+}

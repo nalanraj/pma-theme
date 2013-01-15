@@ -1,0 +1,171 @@
+/**
+* Styles for Neelambal theme
+*/
+
+@font-face {
+  font-family: BaroqueScript;
+  font-weight: bold;
+  src: url(../fonts/BaroqueScript.ttf) format("truetype"), url(../fonts/BaroqueScript.eot) format("eot"), url(../fonts/BaroqueScript.woff) format("woff"), url(../fonts/BaroqueScript.svg) format("svg");
+}
+/*
+h1 {
+  font-family: BaroqueScript, sans-serif;
+}
+
+h2 {
+  font-family: BaroqueScript, sans-serif;
+}
+
+h3 {
+  font-family: BaroqueScript, sans-serif;
+}
+*/
+body {
+  font: 13px/1.5 verdana, serif;
+}
+
+li {
+  list-style: none !important;
+}
+
+/*Site name in the header*/
+.site-name-alter {
+  float: right;
+  padding: 35px 25px 0px 0px;
+}
+
+.site-slogan-alter {
+  float: right;
+  margin: 17px 0px 0px 0px;
+  position: absolute;
+}
+
+.logo-alter {
+  padding: 0 0 0 25px;
+}
+
+#header {
+  background-color: #30aed3;
+  border-radius: 5px;
+  border-width: 5px;
+  box-shadow: 0px 0px 20px #cccccc;
+  height: 125px;
+  padding: 10px 10px 10px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0px 0px 20px #cccccc;
+  -webkit-box-shadow: 0px 0px 20px #cccccc;
+}
+
+#header-wrapper {
+  width: 940px;
+}
+
+#header-wrapper .block {
+  display: block;
+  float: left;
+  width: 300px;
+}
+
+#sidebar-left {
+  background-color: #30aed3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #cccccc;
+  padding: 10px 10px 10px 10px;
+  -moz-border-radius: 5px;
+  -moz-box-shadow: 0px 0px 20px #cccccc;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 20px #cccccc;
+}
+
+#main-content {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #cccccc;
+  padding: 10px 10px 10px 10px;
+  -moz-border-radius: 5px;
+  -moz-box-shadow: 0 0 20px #cccccc;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: 0 0 20px #cccccc;
+}
+
+/****Primary Links****/
+#site-menu {
+  background: #13080e;
+  border-radius: 5px;
+  border-width: 5px;
+  height: 45px;
+  padding: 0 0 0 10px;
+  width: 930px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#site-menu li {
+  background: #13080e;
+  float: left;
+  height: 45px;
+}
+
+#site-menu li.active,
+#site-menu li:hover {
+  background: #d033f1;
+}
+
+#site-menu a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+#site-menu a:hover,
+#site-menu a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*** Content Bottom ***/
+#content-bottom {
+  background-color: #848484;
+  box-shadow: 0 0 20px #cccccc;
+  text-align: center;
+  -moz-border-radius: 5px;
+  -moz-box-shadow: 0 0 20px #cccccc;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: 0 0 20px #cccccc;
+}
+
+#content-bottom-left {
+  padding: 10px 10px 10px 10px;
+}
+
+#content-bottom-right {
+  padding: 10px 10px 10px 10px;
+}
+
+#content-bottom-center {
+  padding: 10px 10px 10px 10px;
+}
+
+/*** Footer ***/
+#footer {
+  font-style: italic;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+#footer-wrapper {
+  width: 940px;
+}
+
+#footer-wrapper .block {
+  display: block;
+  float: left;
+  width: 300px;
+}
+
+.spacer {
+  height: 10px;
+}
