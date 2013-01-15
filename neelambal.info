@@ -1,5 +1,5 @@
 name = Neelambal
-description = a simple theme for drupal 6 based on 960 grid system. now used in distro
+description = a simple theme for drupal 6 based on 960 grid system.
 screenshot = images/screenshot.png
 core = 6.x
 engine = phptemplate
